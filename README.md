@@ -69,12 +69,6 @@ Either way, I wanted to have the script give me feedback on a same line echo, we
 
 # Log Result
 The log results has some hickups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few itterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
-<<<<<<< HEAD
 #### [Hypevotes over time](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [![](https://i.imgur.com/ZvkPSJE.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [log.csv](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
-=======
-#### [Hypevotes over time](hype_votes_over_time.xlsx)
-[![](https://i.imgur.com/ZvkPSJE.png)]([hype_votes_over_time.xlsx](https://github.com/thelifeisyours/HypeVote/hype_votes.sh))
-[log.csv](https://github.com/thelifeisyours/HypeVote/hype_votes.sh)
->>>>>>> 3b0c0cabcd276af30b76b1267df2bb98903cf712
