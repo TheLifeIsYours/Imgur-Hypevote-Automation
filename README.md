@@ -28,8 +28,8 @@ Now all we have to do is:
 * navigate back to the front page
 * open up the first post we can find
 * and start the hypevoting!
-#### [hype_vote_auto_clicker.js](https://github.com/thelifeisyours/HypeVote/hype_vote_auto_clicker.js)
-[![hype_vote_auto_clicker.js](https://i.imgur.com/SaB8G9e.png)](https://github.com/thelifeisyours/HypeVote/hype_vote_auto_clicker.js)
+#### [hype_vote_auto_clicker.js](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_vote_auto_clicker.js)
+[![hype_vote_auto_clicker.js](https://i.imgur.com/SaB8G9e.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_vote_auto_clicker.js)
 
 ## Hypevote logging
 **Logging total Hypevotes with bash and shell script**
@@ -64,11 +64,11 @@ Inside the loop:
 
 Either way, I wanted to have the script give me feedback on a same line echo, wether or not the value has updated.
 
-#### [hype_votes.sh](https://github.com/thelifeisyours/HypeVote/hype_votes.sh)
-[![hype_votes.sh](https://i.imgur.com/u88RvoV.png)](https://github.com/thelifeisyours/HypeVote/hype_votes.sh)
+#### [hype_votes.sh](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_votes.sh)
+[![hype_votes.sh](https://i.imgur.com/u88RvoV.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_votes.sh)
 
 # Log Result
 The log results has some hickups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few itterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
-#### [Hypevotes over time](hype_votes_over_time.xlsx)
-[![](https://i.imgur.com/ZvkPSJE.png)]([hype_votes_over_time.xlsx](https://github.com/thelifeisyours/HypeVote/hype_votes.sh))
-[log.csv](https://github.com/thelifeisyours/HypeVote/hype_votes.sh)
+#### [Hypevotes over time](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
+[![](https://i.imgur.com/ZvkPSJE.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
+[log.csv](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
