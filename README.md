@@ -1,5 +1,5 @@
 # Hypevote Automation
-For April 1. 2021, Imgur had their annual April fools prank, and this time addign a little extra feature to their post voting system. This year they introduced **Hypevotes!**
+For April 1. 2021, Imgur had their annual April fools prank, and this time adding a little extra feature to their post voting system. This year they introduced **Hypevotes!**
 
 **[Turn one upvote into many by HYPE VOTING!](https://imgur.com/gallery/J9dUKdY)**
 [<img src="hypevote_imgur_post.gif?raw=true" width="600px">](https://imgur.com/gallery/J9dUKdY)
@@ -11,17 +11,17 @@ Their Hypevote event is directly inspired by their Melee mobile, gaming oriented
 With a lot of tapping comes great wrist strain... try to click as fast as you can within 5 seconds, 50 times!
 It's not an easy feat, at least not if you're encouraged to do it all day...
 
-So instead of possibly ruining my future carrier, straining my wrists on repetetive tasks, a developer does what a developer does best... Automation! 🥳
+So instead of possibly ruining my future career, straining my wrists on repetitive tasks, a developer does what a developer does best... Automation! 🥳
 
 ## Hypevote automation
-**Autoamting the Hypevoting trough the browser develoepr console**
+**Automating the Hypevoting trough the browser developer console**
 
-The site autmation is pretty straight forward.
+The site automating is pretty straight forward.
 * You have one button to press 50 times within 5 seconds.
 * Navigate to next post in the feed.
 * Hyper vote again!
 
-The few limitations we have, is that if the feed ends, we have to get back to the start of the feed. With imgur, since the whole site is a React SPA, we can navigate freely without having to re-apply our code after a page navigation. So we can even automate that process.
+The few limitations we have, is that if the feed ends, we have to get back to the start of the feed. With Imgur, since the whole site is a React SPA, we can navigate freely without having to re-apply our code after a page navigation. So we can even automate that process.
 
 Now all we have to do is:
 * check wether we're at the end of line
@@ -34,7 +34,7 @@ Now all we have to do is:
 ## Hypevote logging
 **Logging total Hypevotes with bash and shell script**
 
-Alongside the automation, I was inspired by other imgurians to log the rate of votes over time.
+Alongside the automation, I was inspired by other Imgurians to log the rate of votes over time.
 
 I didn't know strictly where to pull the data from, but what I did know, is that the event banner at the time, displayed different milestones, and how far along the total votes were.
 
@@ -68,7 +68,7 @@ Either way, I wanted to have the script give me feedback on a same line echo, we
 [![hype_votes.sh](https://i.imgur.com/u88RvoV.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_votes.sh)
 
 # Log Result
-The log results has some hickups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few itterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
+The log results has some hiccups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few iterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
 #### [Hypevotes over time](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [![](https://i.imgur.com/ZvkPSJE.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [log.csv](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
