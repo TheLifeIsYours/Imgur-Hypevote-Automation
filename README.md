@@ -45,9 +45,9 @@ So I did some digging in the code of the banner, and found out where the banner 
 And to me, that's as good source as any other.
 So i set out to pick it apart, and started logging!
 
-![Imgur Hypevote Event Banner Code](https://i.imgur.com/Z2R6Pxo.png)
-**Small summary of the banner code**
-For each bar, getting the percentage of how far along are we to the next milestone, and in the end subtracting the milestone from the total hype, if there are more than zero totalHype points left.
+![Imgur Hypevote Event Banner Code](https://i.imgur.com/Z2R6Pxo.png)  
+**Small summary of the banner code**  
+For each bar, get the percentage of how far along are we to the next milestone, and in the end subtracting the milestone from the total hype, if there are more than zero totalHype points left after the calculation.
 
 ### Shell code
 What I knew was that I had to pull out the totalHype variable, and what better tool to use than regex?
