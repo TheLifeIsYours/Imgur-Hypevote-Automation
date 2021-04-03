@@ -2,7 +2,7 @@
 For April 1. 2021, Imgur had their annual April fools prank, and this time addign a little extra feature to their post voting system. This year they introduced **Hypevotes!**
 
 **[Turn one upvote into many by HYPE VOTING!](https://imgur.com/gallery/J9dUKdY)**
-[![Imgur Hypevote Demo](https://i.imgur.com/hW7H5fj.gif)](https://imgur.com/gallery/J9dUKdY)
+[![Imgur Hypevote Demo](https://i.imgur.com/OfUvxbO.gif)](https://imgur.com/gallery/J9dUKdY)
 
 
 Hypevotes allowed users to upvote a post by 50 points, if they managed to click fast enough that is.
