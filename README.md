@@ -1,5 +1,5 @@
 # Hypevote Automation
-For April 1. 2021, Imgur had their annual Aprilfools prank, and this time addign a little extra feature to their post voting system. This year they introduced **Hypevotes!**
+For April 1. 2021, Imgur had their annual April fools prank, and this time addign a little extra feature to their post voting system. This year they introduced **Hypevotes!**
 
 **[Turn one upvote into many by HYPE VOTING!](https://imgur.com/gallery/J9dUKdY)**
 [![Imgur Hypevote Demo](https://i.imgur.com/hW7H5fj.gif)](https://imgur.com/gallery/J9dUKdY)
@@ -69,6 +69,12 @@ Either way, I wanted to have the script give me feedback on a same line echo, we
 
 # Log Result
 The log results has some hickups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few itterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
+<<<<<<< HEAD
 #### [Hypevotes over time](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [![](https://i.imgur.com/ZvkPSJE.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [log.csv](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
+=======
+#### [Hypevotes over time](hype_votes_over_time.xlsx)
+[![](https://i.imgur.com/ZvkPSJE.png)]([hype_votes_over_time.xlsx](https://github.com/thelifeisyours/HypeVote/hype_votes.sh))
+[log.csv](https://github.com/thelifeisyours/HypeVote/hype_votes.sh)
+>>>>>>> 3b0c0cabcd276af30b76b1267df2bb98903cf712
