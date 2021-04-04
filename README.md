@@ -14,7 +14,7 @@ It's not an easy feat, at least not if you're encouraged to do it all day...
 So instead of possibly ruining my future career, straining my wrists on repetitive tasks, a developer does what a developer does best... Automation! 🥳
 
 ## Hypevote automation
-**Automating the Hypevoting trough the browser developer console**
+**Automating the Hypevoting through the browser developer console**
 
 The site automating is pretty straight forward.
 * You have one button to press 50 times within 5 seconds.
@@ -42,12 +42,12 @@ I didn't know strictly where to pull the data from, but what I did know, is that
 
 So I did some digging in the code of the banner, and found out where the banner calculated each progress bar. The banner is using a variable, holding the total amount of votes, since the start of the event.
 
-And to me, that's as good source as any other.
+And to me, that's a good enough source as any other.
 So i set out to pick it apart, and started logging!
 
 ![Imgur Hypevote Event Banner Code](https://i.imgur.com/Z2R6Pxo.png)  
 **Small summary of the banner code**  
-For each bar, get the percentage of how far along are we to the next milestone, and in the end subtracting the milestone from the total hype, if there are more than zero totalHype points left after the calculation.
+For each bar, get the percentage of how far along we are to the next milestone, and in the end subtracting the milestone from the total hype, if there are more than zero totalHype points left after the calculation.
 
 ### Shell code
 What I knew was that I had to pull out the totalHype variable, and what better tool to use than regex?
@@ -62,13 +62,13 @@ Inside the loop:
   * Or append it to the end of the csv log file.
     * csv contains totalHype points, and a timestamp in ms.
 
-Either way, I wanted to have the script give me feedback on a same line echo, wether or not the value has updated.
+Either way, I wanted to have the script give me feedback on a same line with a echo, wether or not the value had updated.
 
 #### [hype_votes.sh](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_votes.sh)
 [![hype_votes.sh](https://i.imgur.com/u88RvoV.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/hype_votes.sh)
 
 # Log Result
-The log results has some hiccups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few iterations of the script. (Also possibly because I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
+The log results had some hiccups here and there, and that's due to the script hanging from time to time, reason being that there weren't implemented any error checks in the first few iterations of the script. (Also possibly that I got rate limited because of the auto clicker... but we'll just look past that :eyes:)
 #### [Hypevotes over time](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [![](https://i.imgur.com/ZvkPSJE.png)](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
 [log.csv](https://github.com/TheLifeIsYours/Imgur-Hypevote-Automation/blob/master/log.csv)
